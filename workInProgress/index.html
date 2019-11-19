@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Stacked Bar Chart</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+    <script type="text/javascript" src="style.css"></script>
+  </head>
+  <body>
+  <div class='graph'>
+  <canvas id="chart1"></canvas>
+  <canvas id="chart2"></canvas>
+</div>
+<div class='graph'>
+  <canvas id="chart3"></canvas>
+  <canvas id="chart4"></canvas></div>
+
+<script>
+//  Pre-Question1
+Chart.defaults.global.animation.duration = 4000;
+// ^The higher the number the slower it goes!^
+
+// PRE
+           var ctx1 = document.getElementById('chart1');
+           var myChart = new Chart(ctx1, {
+                     type: 'horizontalBar',
+                     data: {
+                       labels: ['Post-Implementation'],
+                       datasets: [
+                           {
+                             label: 'Strongly Agree',
+                             data: [6],
+                             backgroundColor: '#82A9BC' //
+                           }
+                           ,
+                           {
+                             label: 'Agree',
+                             data: [3],
+                             backgroundColor: '#ABD9E9' //
+                           }
+                           ,
+                           {
+                             label: 'Neutral',
+                             data: [1],
+                             backgroundColor: '#FFFFC0' //
+                           }
+                           ,
+                           {
+                             label: 'Disagree',
+                             data: [0],
+                             backgroundColor: '#FCAE62' //
+                           }
+                           ,
+                           {
+                             label: 'Strongly Disagree',
+                             data: [0],
+                             backgroundColor: '#D4191B' //
+                           }
+                         ]},
+                     options: {
+                       display: true,
+                       title:{
+                         display: true},
+                       legend:{display:true},
+                       scales: {
+                         xAxes: [{ stacked: true }],
+                         yAxes: [{ stacked: true }]}
+                       }
+                     });;
+
+
+//  Post-Question1
+    var ctx2 = document.getElementById('chart2');
+    var myChart = new Chart(ctx2, {
+              type: 'horizontalBar',
+              data: {
+                labels: ['Post-Implementation'],
+                datasets: [
+                    {
+                      label: 'Strongly Agree',
+                      data: [.5],
+                      backgroundColor: '#82A9BC' //
+                    },
+                    {
+                      label: 'Agree',
+                      data: [.3],
+                      backgroundColor: '#ABD9E9' //
+                    },
+                    {
+                      label: 'Neutral',
+                      data: [.1],
+                      backgroundColor: '#FFFFC0' //
+                    }
+                    ,
+                    {
+                      label: 'Disagree',
+                      data: [0],
+                      backgroundColor: '#FCAE62' //
+                    },
+                    {
+                      label: 'Strongly Disagree',
+                      data: [0],
+                      backgroundColor: '#D4191B' //
+                    }
+                  ]},
+              options: {
+                display: true,
+                title:{
+                  // text:'I feel I am part of a team that adequately supports me in managing my workplace stress',
+                  display: true}
+                  ,
+                legend:{display:false}
+
+
+                ,
+                scales: {
+                  xAxes: [{ stacked: true }],
+                  yAxes: [{ stacked: true }]}
+                }
+              });
+              // /////////////////////////////////////////////////////////////////////////////////////////////
+//  Pre-Question2
+               var ctx3 = document.getElementById('chart3');
+               var myChart = new Chart(ctx3, {
+                         type: 'horizontalBar',
+                         data: {
+                           labels: ['Pre-Implementation'],
+                           datasets: [
+                               {
+                                 label: 'Strongly Agree',
+                                 data: [1],
+                                 backgroundColor: '#82A9BC' //
+                               },
+                               {
+                                 label: 'Agree',
+                                 data: [8],
+                                 backgroundColor: '#ABD9E9' //
+                               },
+                               {
+                                 label: 'Neutral',
+                                 data: [1],
+                                 backgroundColor: '#FFFFC0' //
+                               }
+                               ,
+                               {
+                                 label: 'Disagree',
+                                 data: [0],
+                                 backgroundColor: '#FCAE62' //
+                               },
+                               {
+                                 label: 'Strongly Disagree',
+                                 data: [0],
+                                 backgroundColor: '#D4191B' //
+                               }
+                             ]},
+                         options: {
+                           display: true,
+                           title:{
+                             text:'I have received effective training and resources to manage my own self-care',
+                             display: true}
+                             ,
+                           legend:{display:true}
+
+
+                           ,
+                           scales: {
+                             xAxes: [{ stacked: true }],
+                             yAxes: [{ stacked: true }]}
+                           }
+                         });
+
+
+//  Post-Question2
+              var ctx4 = document.getElementById('chart4');
+              var myChart = new Chart(ctx4, {
+                        type: 'horizontalBar',
+                        data: {
+                          labels: ['Post-Implementation'],
+                          datasets: [
+                              {
+                                label: 'Strongly Agree',
+                                data: [3],
+                                backgroundColor: '#82A9BC' //
+                              },
+                              {
+                                label: 'Agree',
+                                data: [3],
+                                backgroundColor: '#ABD9E9' //
+                              },
+                              {
+                                label: 'Neutral',
+                                data: [3],
+                                backgroundColor: '#FFFFC0' //
+                              }
+                              ,
+                              {
+                                label: 'Disagree',
+                                data: [0],
+                                backgroundColor: '#FCAE62' //
+                              },
+                              {
+                                label: 'Strongly Disagree',
+                                data: [0],
+                                backgroundColor: '#D4191B' //
+                              }
+                            ]},
+                        options: {
+                          display: true,
+                          title:{
+                            // text:'I feel I am part of a team that adequately supports me in managing my workplace stress',
+                            display: true}
+                            ,
+                          legend:{display:false}
+
+
+                          ,
+                          scales: {
+                            xAxes: [{ stacked: true }],
+                            yAxes: [{ stacked: true }]}
+                          }
+                        });
+              //  Post-Question3
+              //  Pre-Question3
+              //  Post-Question4
+              //  Pre-Question4
+</script>
+
+
+  </body>
+</html>
