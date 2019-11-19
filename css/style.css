@@ -2,7 +2,6 @@ html {
 	box-sizing: border-box;
 	background-color: #fafafa;
 	background-image: url(../images/bftcBlur.jpg);
-	/* background-repeat: no-repeat; */
 	  background-attachment: fixed;
 }
 
@@ -29,7 +28,6 @@ div {
 	background-color: #FFF;
 	font-family: lato, arial, sans-serif;
 	font-size: 16px;
-	/* border: red 1px dotted; */
 	padding: 5px;
 
 }
@@ -40,7 +38,6 @@ div {
 	display: flex;
 	align-items: space-around;
 	opacity: 90%;
-	/* padding-top:60px; */
 }
 
 footer {
@@ -203,7 +200,6 @@ img.head-logo {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	/* border: red 2px dotted; */
 }
 
 span.orgLinks > a {
@@ -398,13 +394,11 @@ li a:hover, a:active {
 }
 li a.navTop:link {
     background-color: lightblue;
-    /* color: red; */
     display: inline-block;
     text-align:center;
 		padding: 15px;
 		padding-top: 20px;
-		/* margin-top: 5px; */
-    width: 270px;
+		width: 270px;
 }
 
 li a.navTop:hover {
@@ -415,7 +409,6 @@ li a.navTop:hover {
 li.navTop {
     float: left;
     list-style: none;
-		/* border: red 2px dotted; */
 		padding-top: 20px;
 }
 
@@ -440,7 +433,6 @@ ul.navTop {
 		.bar {
 			margin-top: 20px;
 			height:40px;
-			/* border: yellow 2px dotted; */
 		}
 
 		p {
@@ -467,13 +459,10 @@ ul.navTop {
 		    left: 0;
 		    right: 0;
 		    height: 60px;
-				/* opacity:90%; */
 		}
 
 		header * {
 			display: inline;
-			/* border-bottom: black 1px dotted; */
-			/* border: yellow dotted 2px; */
 		}
 		header li {
 			font-size: 18px;
@@ -492,7 +481,6 @@ ul.navTop {
 
 		li a.navTop:link {
 		    background-color: lightblue;
-		    /* color: red; */
 		    display: inline-block;
 		    text-align:center;
 				padding: 15px;
@@ -542,17 +530,13 @@ ul.navTop {
 
 			header {
 					z-index:1;
-					/* display: inline; */
-
-
 					background-color: white;
 			    position: fixed;
 			    top: 0;
 			    left: 0;
 			    right: 0;
 			    height: 60px;
-					/* opacity:90%; */
-					/* padding-top: 60px; */
+
 			}
 
 		header * {
@@ -594,7 +578,6 @@ ul.navTop {
 			}
 
 			navTop > ul > li {
-				/* border-right:  red 2px solid */
 				font-size: 16px;
 			}
 
