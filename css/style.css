@@ -420,6 +420,12 @@ ul.navTop {
 	top: -60px;
 }
 
+
+			.bar {
+				margin-top: 10px;
+				border: none;
+			}
+
 /*/////////////////////////////////////////*/
 /*////// ABOUT BFTC ///////////////////////*/
 /*/////////////////////////////////////////*/
@@ -495,6 +501,11 @@ ul.navTop {
 			font-size: 16px;
 		}
 
+		
+			.bar {
+				margin-top: 35px;
+				border: none;
+			}
 
 
 @media only screen and (min-width: 1100px) {
@@ -581,7 +592,7 @@ ul.navTop {
 				font-size: 16px;
 			}
 
-			l
+			
 
 			navTop > ul > li:last-child {
 			  border-right: none;
