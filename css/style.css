@@ -409,7 +409,7 @@ li a.navTop:hover {
 li.navTop {
     float: left;
     list-style: none;
-		padding-top: 20px;
+		/* padding-top: 20px; */
 }
 
 ul.navTop {
