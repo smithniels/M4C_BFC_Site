@@ -397,7 +397,7 @@ li a.navTop:link {
     display: inline-block;
     text-align:center;
 		padding: 15px;
-		padding-top: 20px;
+		/* padding-top: 20px; */
 		width: 270px;
 }
 
@@ -501,7 +501,7 @@ ul.navTop {
 			font-size: 16px;
 		}
 
-		
+
 			.bar {
 				margin-top: 35px;
 				border: none;
@@ -592,7 +592,7 @@ ul.navTop {
 				font-size: 16px;
 			}
 
-			
+
 
 			navTop > ul > li:last-child {
 			  border-right: none;
