@@ -52,24 +52,18 @@ $(document).ready(function(){
     });
 
 
-
 // 4 part slidey bits
     $(document).ready(function(){
-      // $('.slider').bxSlider();
       $('.slider').bxSlider({
-        // https://bxslider.com/options/
         mode: 'vertical',
         keyboardEnabled: true,
         minSlides: 1,
         maxSlides: 1,
         pager: false,
         control: true,
-        // ticker: false,
         control: true
         });
       });
-
-
 
 // typeywriter bits
 // 100% credit to Simon Shahriveri on CodePen for this js code
@@ -174,8 +168,5 @@ function hasScrolled() {
 
     lastScrollTop = st;
 }
-
-// fancy bits
-// $.fancybox.defaults.animationEffect = "fade";
 
 }); // closing bit of the initial doc ready check

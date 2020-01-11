@@ -38,6 +38,7 @@ div {
 	display: flex;
 	align-items: space-around;
 	opacity: 90%;
+	padding-top:30px;
 }
 
 footer {
@@ -280,11 +281,6 @@ span.orgLinks > a {
 	-ms-filter: "alpha(opacity=100)";
 }
 
-.even{
-}
-
-.odd{
-}
 
 .quote {
 	height: 100px;
@@ -421,11 +417,15 @@ ul.navTop {
 }
 
 
-			.bar {
-				margin-top: 10px;
-				border: none;
-			}
+.bar {
+	margin-top: 10px;
+	border: none;
+	border-radius: 15px 15px 0 0;
+}
 
+/* .bar-top{
+	padding-top:50px;
+} */
 /*/////////////////////////////////////////*/
 /*////// ABOUT BFTC ///////////////////////*/
 /*/////////////////////////////////////////*/
@@ -448,68 +448,74 @@ ul.navTop {
 		.white {
 			padding-bottom: 25px;
 		}
-	}
-
+		
 		.maps {
 			display: flex;
 			align-items: flex-end;
 			justify-content: space-around;
 		}
-
+		
 		header {
-				z-index:1;
-				/* display: inline; */
-				background-color: white;
+			z-index:1;
+			/* display: inline; */
+			background-color: white;
 		    position: fixed;
 		    top: 0;
 		    left: 0;
 		    right: 0;
 		    height: 60px;
 		}
-
+		
 		header * {
 			display: inline;
 		}
 		header li {
 			font-size: 18px;
 		}
-
+		
 		navTop > ul > li {
-			border-right:  red 2px solid
+			border-right:  red 2px solid;
 			font-size: 1px;
+			width:25%;
 		}
 
 		l
-
+		
 		navTop > ul > li:last-child {
-		  border-right: none;
+			border-right: none;
 		}
-
+		
 		li a.navTop:link {
-		    background-color: lightblue;
+			background-color: lightblue;
 		    display: inline-block;
 		    text-align:center;
-				padding: 15px;
-				padding-top: 20px;
-				margin-top: 5px;
-		    width: 270px;
+			padding: 15px;
+			padding-top: 20px;
+			margin-top: 5px;
+		    width:25%;
 		}
-
+		
 		.typewrite {
 			font-family: quicksand, Lato, arial, verdana, sans-serif;
 			font-weight: 600;
 			font-size: 16px;
 		}
-
-
-			.bar {
-				margin-top: 35px;
-				border: none;
-			}
-
-
-@media only screen and (min-width: 1100px) {
-
+		
+		
+		.bar {
+			margin-top: 35px;
+			border: none;
+		}
+		.navTop{
+			width:25%;
+		}
+		li a.navTop:link{
+			width:25%;}
+		
+	}
+		
+		@media only screen and (min-width: 1100px) {
+			
 
 			.white {
 				justify-content: center;
