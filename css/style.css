@@ -311,6 +311,8 @@ span.orgLinks > a {
 .about{
 	padding: 0 30px;
 	font-size: 20px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .aboutList{
@@ -369,16 +371,16 @@ div.navTop {
     border: 2px;
     margin: 0 auto 60 auto;
     padding: 10px;
-    width: 980;
+    /* width: 100%; */
 }
-ul.navTop li:first-child a {
+/* ul.navTop li:first-child a {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 ul.navTop li:last-child a {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-}
+} */
 li a {
     color: #545454;
     font-family: lucida grande, lucida sans, sans-serif;
@@ -398,7 +400,8 @@ li a.navTop:link {
 }
 
 li a.navTop:hover {
-    color: #191919;
+	color: #191919;
+	font-weight:bold; /* not working/ what even is this bit... */
     background-color: #EDD9DF;
 }
 
@@ -422,7 +425,10 @@ ul.navTop {
 	border: none;
 	border-radius: 15px 15px 0 0;
 }
-
+.div-top{
+	margin-bottom: 20px !important;
+	/* height:100px !important; */
+}
 /* .bar-top{
 	padding-top:50px;
 } */
@@ -492,7 +498,8 @@ ul.navTop {
 			padding: 15px;
 			padding-top: 20px;
 			margin-top: 5px;
-		    width:25%;
+			width:25%;
+			border-radius:15px;
 		}
 		
 		.typewrite {
@@ -507,10 +514,14 @@ ul.navTop {
 			border: none;
 		}
 		.navTop{
-			width:25%;
+			/* width:25%; */
 		}
 		li a.navTop:link{
 			width:25%;}
+
+		li a.navTop:hover{
+			font-weight:bold;
+		}
 		
 	}
 		
