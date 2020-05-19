@@ -186,6 +186,7 @@ img.head-logo {
 .logo {
 	width: 30%;
 	margin: auto;
+	
 }
 
 .urban {
@@ -195,7 +196,7 @@ img.head-logo {
 
 .middle_images {
 	display: flex;
-	height:150px;
+	height:100%;
 }
 
 .orgLinks {
