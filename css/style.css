@@ -622,4 +622,9 @@ ul.navTop {
 				font-weight: 600;
 				font-size: 18px;
 			}
+
+			.here {
+				font-weight: 600;
+				font-color: dark-blue;
+			}
 }
