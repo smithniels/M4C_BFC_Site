@@ -630,6 +630,6 @@ ul.navTop {
 
 			li.navTop {
 				display: flex;
-				flex-direction: row;
+				flex-flow: row wrap;
 			}
 }
