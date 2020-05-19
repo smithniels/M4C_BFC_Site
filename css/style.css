@@ -627,4 +627,9 @@ ul.navTop {
 				font-weight: 600;
 				font-color: dark-blue;
 			}
+
+			li.navTop {
+				display: flex;
+				flex-direction: row;
+			}
 }
