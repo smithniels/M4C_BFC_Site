@@ -195,7 +195,7 @@ img.head-logo {
 
 .middle_images {
 	display: flex;
-	height:150px;
+	height:100%;
 }
 
 .orgLinks {
