@@ -523,6 +523,7 @@ ul.navTop {
 
 		li a.navTop:hover{
 			font-weight:bold;
+			font-size: 18px;
 		}
 		
 	}
