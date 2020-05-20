@@ -471,6 +471,7 @@ nav-down {
 			z-index:1;
 			/* display: inline; */
 			background-color: white;
+			opacity: 80%;
 		    position: fixed;
 		    top: 0;
 		    left: 0;
