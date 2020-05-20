@@ -518,8 +518,8 @@ ul.navTop {
 		.navTop{
 			width:25%;
 		}
-		li a.navTop:link{
-			width:25%;}
+		/* li a.navToplink{
+			width:25%;} */
 
 		li a.navTop:hover{
 			font-weight:bold;
