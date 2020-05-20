@@ -421,6 +421,10 @@ ul.navTop {
 	top: -60px;
 }
 
+nav-down {
+	display:flex;
+	width: 100%;
+}
 
 .bar {
 	margin-top: 10px;
