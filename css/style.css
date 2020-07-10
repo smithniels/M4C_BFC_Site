@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   background-image: url(../images/bftcBlur.jpg);
   background-attachment: fixed;
 }
