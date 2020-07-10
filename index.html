@@ -5,7 +5,6 @@
 <!-- TODO: Figure out a good way to do hover popup graphics -->
 <!-- TODO: Blur/Ampersand/footnotes( logic model) -->
 
-<html lang="en" dir="ltr">
 <div class="bar"></div>
 
 <head>
@@ -56,7 +55,6 @@
             </div>
         </section>
     </div>
-
     <div class="bar"></div>
     <section class="cd-section">
         <container>
@@ -64,8 +62,8 @@
                 <span class='title'>
 												<strong>The Impact of Measure4Change on Bread for the City's Performance Measurement Capacity:</strong></span>
                 <ul>
-                    <li class="PleaselapPlease">
-                        <p>
+                    <div class="PleaselapPlease">
+                        <!-- <p> -->
                             <strong>Developing logic models and indicators </strong> - BFC staff developed a logic model and corresponding indicators to track the short, medium and long-term impact of a pilot program.
                             <span class="readmore">
                                 <a href="#"> Read more...</a>
@@ -88,16 +86,14 @@
 	                                 <img src="images/logic_model_thumb.jpg" alt="display logic model image"  />
                                 </a>
 
+                        <!-- </p> -->
+                        <!-- <p> -->
+                            <p class="readless hide">
+                                <a href="#">Read less</a>
                             </p>
-                            <p>
-                                <p class="readless hide">
-                                    <a href="#">Read less</a>
-                                </p>
-                                <p class="hide">...</p>
-                            </p>
-                            <!-- END READ MORE  -->
-                        </p>
-                    </li>
+                            <p class="hide">...</p>
+                        <!-- </p> -->
+
                     <li>
                         <p>
                             <strong>Engaging staff in performance measurement</strong> - Bread for the City's QI manager developed and rolled out a half-day training on performance measurement for new staff, which has been integrated into the new staff orientation program.
@@ -123,8 +119,8 @@
                     <li>
                         <p>
                             <strong>New measurement tools</strong> - M4C-supported work measuring staff attitudes toward trauma and trauma informed care led to the identification of ARTIC, a validated tool to demonstrate progress in our evolution toward becoming a more trauma-informed organization. We plan to roll out the ARTIC survey to staff in late 2019.
+                        </p>
                     </li>
-                    </p>
                 </ul>
             </div>
         </container>
@@ -145,7 +141,7 @@
                                         <strong>Difficulties finding utility with quantitative data</strong> -
                                         <a href="#">Because our clients are predominately Black<span class= "race"><img src="images/race.png" alt="graph showing that 93.3% of BFC's clientele are black" height="100%;" id = "race"/></span></a>
 
-                                        </a>
+                                        
 
                                         , quantitative data on disparities in client outcomes is of limited utility in identifying and addressing racial inequities in BFC's work with clients.
                                     </p>
@@ -168,6 +164,7 @@
                                         <canvas id="chart1"></canvas>
                                         <br>
                                         <canvas id="chart2"></canvas>
+                                    </div>
                                 </li>
                             </ul>
         </container>
@@ -227,7 +224,7 @@
     </footer>
 
     <script>
-        Chart.defaults.global.animation.duration = 4000;
+        Chart.defaults.global.animation.duration = 8000;
         // ^The higher the number the slower it goes!^
         // PRE
 

@@ -360,11 +360,11 @@ navTop > ul > li:last-child {
   border-right: none;
 }
 
-div.navTop {
+.div.navTop {
   border: 2px;
   margin: 0 auto 60 auto;
   padding: 10px;
-
+}
 li a {
   color: #545454;
   font-family: lucida grande, lucida sans, sans-serif;
@@ -412,8 +412,6 @@ nav-down {
   border: none;
   border-radius: 15px 15px 0 0;
 }
-.div-top {
-  margin-bottom: 20px !important;
 
 /*/////////////////////////////////////////*/
 /*////// ABOUT BFTC ///////////////////////*/
@@ -495,7 +493,7 @@ nav-down {
   .navTop {
     width: 250px;
   }
-  
+
   li a.navTop:hover {
     font-weight: bold;
     font-size: 18px;
@@ -598,9 +596,7 @@ nav-down {
 
   li.navTop {
     display: flex;
-    width:24%;
+    width: 24%;
     flex-flow: row wrap;
   }
 }
-
-
