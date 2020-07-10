@@ -472,10 +472,11 @@ nav-down {
     background-color: lightblue;
     display: inline-block;
     text-align: center;
+    justify-content: center;
     padding: 15px;
     padding-top: 20px;
     margin-top: 5px;
-    width: 24%;
+    width: 20%;
     border-radius: 15px;
   }
 
