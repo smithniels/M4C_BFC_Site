@@ -490,7 +490,7 @@ nav-down {
     border: none;
   }
   .navTop {
-    width: 250px;
+    width: 100%;
   }
 
   li a.navTop:hover {
@@ -522,10 +522,6 @@ nav-down {
   a {
     font-size: 16px;
   }
-
-  /* header p{
-				font-size:18px;
-			} */
 
   header {
     z-index: 1;
