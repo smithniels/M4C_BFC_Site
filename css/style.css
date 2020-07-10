@@ -596,5 +596,9 @@ nav-down {
     display: flex;
     width: 24%;
     flex-flow: row wrap;
+
+    .pleaseclapplease {
+      font-size: 18px;
+    }
   }
 }
