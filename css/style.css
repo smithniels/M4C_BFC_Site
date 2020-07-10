@@ -334,6 +334,7 @@ header {
   background-color: white;
   position: fixed;
   top: 0;
+  display: flex;
   left: 0;
   right: 0;
   height: 80px;
@@ -414,10 +415,6 @@ nav-down {
 }
 
 /*/////////////////////////////////////////*/
-/*////// ABOUT BFTC ///////////////////////*/
-/*/////////////////////////////////////////*/
-
-/*/////////////////////////////////////////*/
 /*////// RESPONSIVE BELOW /////////////////*/
 /*/////////////////////////////////////////*/
 
@@ -446,6 +443,7 @@ nav-down {
     background-color: white;
     opacity: 95%;
     position: fixed;
+    display: flex; /* let's declare that twice for no reason... */
     top: 0;
     left: 0;
     right: 0;
@@ -453,7 +451,7 @@ nav-down {
   }
 
   header * {
-    display: inline;
+    display: flex;
   }
   header li {
     font-size: 18px;
