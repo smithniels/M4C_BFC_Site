@@ -343,7 +343,7 @@ header {
 }
 
 header * {
-  display: inline;
+  display: flex;
   margin: 0;
   padding: 0;
 }
